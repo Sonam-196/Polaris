@@ -48,7 +48,7 @@ def load_and_train_model():
 model, data = load_and_train_model()
 
 # --- UI ---
-st.title("📦 Walmart Polaris Listing Visibility Predictor")
+st.title("Listing Visibility Predictor")
 st.markdown("Enter product details and get smart visibility predictions based on Polaris ranking logic.")
 
 title = st.text_input("Enter Product Title")
@@ -103,3 +103,4 @@ if st.button("Predict Visibility"):
             st.write(s)
     else:
         st.info("✅ Your listing already meets most best practices. Great job!")
+
